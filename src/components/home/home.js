@@ -20,7 +20,7 @@ import { ReactComponent as Support } from '../../assets/support.svg';
 const Home = () => {
   const benefitsOptions = [
     {
-      title: 'Pristine Condition',
+      title: 'B6 Level Protection',
       desc: 'Impeccable, unblemished bulletproof protection, maintaining you and your valuables pristine and secure condition.',
       logo: CarWash,
     },
