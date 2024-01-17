@@ -20,7 +20,7 @@ const About = () => {
       <Box
         sx={{
           width: '100%',
-          height: '94vh',
+          height: '95vh',
           backgroundColor: 'black',
           marginTop: '50px',
           display: 'flex',

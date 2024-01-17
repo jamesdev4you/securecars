@@ -49,11 +49,40 @@ const Home = () => {
         <CardMedia
           src={Video}
           component='video'
-          sx={{ width: '100%', height: '75vh', objectFit: 'cover' }}
+          sx={{
+            width: '100%',
+            height: '75vh',
+            objectFit: 'cover',
+            position: 'relative',
+          }}
           autoPlay
           loop
           muted
         />
+        <CardContent
+          sx={{
+            position: 'absolute',
+            top: '90px',
+            color: 'white',
+            margin: 'auto',
+            width: '100%',
+            backgroundColor: 'rgba(0,0,0,0.5)',
+          }}
+        >
+          <Typography
+            variant='h1'
+            sx={{ fontFamily: 'lemon', textAlign: 'center' }}
+          >
+            Cachet Bulletproof Services
+          </Typography>
+          <Typography
+            variant='h4'
+            sx={{ fontFamily: 'lemon', textAlign: 'center' }}
+          >
+            Best Luxury Security Service in Miami
+          </Typography>
+        </CardContent>
+
         <CardContent
           sx={{
             width: '100%',
