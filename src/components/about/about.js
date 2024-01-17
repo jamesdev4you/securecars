@@ -5,10 +5,7 @@ import Button from '@mui/material/Button';
 import Guys1 from '../../assets/pics/guy1.jpg';
 import Guys from '../../assets/pics/guy3.jpg';
 import Menu from '../menu/menu';
-import {
-  LightPhoneButton,
-  LightPhonePhoneButton,
-} from '../../styledComponents';
+import { LightPhonePhoneButton } from '../../styledComponents';
 import Ferrari from '../../assets/pics/cars7.jpg';
 import Windows from '../../assets/pics/windows.jpg';
 import Guy from '../../assets/pics/guy1.jpg';

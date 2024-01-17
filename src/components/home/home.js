@@ -10,7 +10,6 @@ import Button from '@mui/material/Button';
 import Ferrari from '../../assets/pics/cars7.jpg';
 import Windows from '../../assets/pics/windows.jpg';
 import Guy from '../../assets/pics/guy1.jpg';
-import { LightPhonePhoneButton } from '../../styledComponents';
 import CardContent from '@mui/material/CardContent';
 import SvgIcon from '@mui/material/SvgIcon';
 import { ReactComponent as CarWash } from '../../assets/car-wash.svg';

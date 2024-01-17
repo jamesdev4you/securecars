@@ -14,10 +14,7 @@ import Logo from '../../assets/pics/logo.jpg';
 import '../../navlink.css';
 import '../../index.css';
 import { Outlet } from 'react-router-dom';
-import {
-  LightPhoneButton,
-  LightPhonePhoneButton,
-} from '../../styledComponents';
+import { LightPhoneButton } from '../../styledComponents';
 import { Typography } from '@mui/material';
 const drawerWidth = 240;
 const navItems = [
