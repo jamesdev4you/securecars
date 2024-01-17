@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/securecars/static/css/main.7f03ac1e.css",
-    "main.js": "/securecars/static/js/main.70bbf19f.js",
+    "main.js": "/securecars/static/js/main.6bb2eab1.js",
     "static/media/securedrone.mp4": "/securecars/static/media/securedrone.9963ab37fe1b0c51b7bf.mp4",
     "static/media/trunksafe2.jpg": "/securecars/static/media/trunksafe2.979607cfd6e53aabca84.jpg",
     "static/media/cars3.jpg": "/securecars/static/media/cars3.8177b1ce2c6732d7200d.jpg",
@@ -22,10 +22,10 @@
     "static/media/howOne.svg": "/securecars/static/media/howOne.3c17a22ef614198101415b692842564d.svg",
     "index.html": "/securecars/index.html",
     "main.7f03ac1e.css.map": "/securecars/static/css/main.7f03ac1e.css.map",
-    "main.70bbf19f.js.map": "/securecars/static/js/main.70bbf19f.js.map"
+    "main.6bb2eab1.js.map": "/securecars/static/js/main.6bb2eab1.js.map"
   },
   "entrypoints": [
     "static/css/main.7f03ac1e.css",
-    "static/js/main.70bbf19f.js"
+    "static/js/main.6bb2eab1.js"
   ]
 }
