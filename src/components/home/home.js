@@ -70,6 +70,9 @@ const Home = () => {
           autoPlay
           loop
           muted
+          playsInline // This ensures compatibility on mobile devices
+          disablePictureInPicture // Optional, prevents the Picture-in-Picture mode on some browsers
+          controls={false}
         />
         <CardContent
           sx={{
@@ -144,15 +147,15 @@ const Home = () => {
                 xl: '0px',
                 lg: '0px',
                 md: '0px',
-                sm: '0px',
-                xs: '0px',
+                sm: '50px',
+                xs: '50px',
               },
               marginBottom: {
                 xl: '0px',
                 lg: '0px',
                 md: '25px',
-                sm: '25px',
-                xs: '25px',
+                sm: '50px',
+                xs: '50px',
               },
               backgroundColor: 'white',
               display: 'flex',
@@ -235,7 +238,7 @@ const Home = () => {
                       lg: '16px',
                       md: '22px',
                       sm: '20px',
-                      xs: '18px',
+                      xs: '14px',
                     },
                     width: '100%',
                     textAlign: 'center',

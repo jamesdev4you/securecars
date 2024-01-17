@@ -298,8 +298,8 @@ export default function ContactForm() {
               value='Send'
               variant='contained'
               fullWidth
-              color='primary'
               sx={{
+                color: 'black',
                 backgroundColor: 'gold',
                 '&:hover': {
                   backgroundColor: '#e7c300',
