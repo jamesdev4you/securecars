@@ -21,7 +21,7 @@ import { ReactComponent as Support } from '../../assets/support.svg';
 const Home = () => {
   const benefitsOptions = [
     {
-      title: 'Safe & Secure Care',
+      title: 'Safe & Secure',
       desc: 'Your vehicles safety is our priority. Trust us for a secure relocation experience with top-notch security measures!',
       logo: CarWash,
     },
@@ -45,7 +45,20 @@ const Home = () => {
   return (
     <>
       <Menu />
-      <Card sx={{ width: '100%', height: '100vh', backgroundColor: 'white' }}>
+      <Card
+        sx={{
+          width: '100%',
+          height: {
+            xl: '105vh',
+            lg: '105vh',
+            md: '185vh',
+            sm: '185vh',
+            xs: '185vh',
+          },
+          marginBottom: '-25px',
+          backgroundColor: 'white',
+        }}
+      >
         <CardMedia
           src={Video}
           component='video'
@@ -62,7 +75,13 @@ const Home = () => {
         <CardContent
           sx={{
             position: 'absolute',
-            top: '90px',
+            top: {
+              xl: '70px',
+              lg: '70px',
+              md: '60px',
+              sm: '60px',
+              xs: '50px',
+            },
             color: 'white',
             margin: 'auto',
             width: '100%',
@@ -70,14 +89,32 @@ const Home = () => {
           }}
         >
           <Typography
-            variant='h1'
-            sx={{ fontFamily: 'lemon', textAlign: 'center' }}
+            sx={{
+              fontFamily: 'lemon',
+              textAlign: 'center',
+              fontSize: {
+                xl: '56px',
+                lg: '56px',
+                md: '44px',
+                sm: '26px',
+                xs: '20px',
+              },
+            }}
           >
             Cachet Bulletproof Services
           </Typography>
           <Typography
-            variant='h4'
-            sx={{ fontFamily: 'lemon', textAlign: 'center' }}
+            sx={{
+              fontFamily: 'lemon',
+              textAlign: 'center',
+              fontSize: {
+                xl: '44px',
+                lg: '44px',
+                md: '26px',
+                sm: '20px',
+                xs: '18px',
+              },
+            }}
           >
             Best Luxury Security Service in Miami
           </Typography>
@@ -86,7 +123,7 @@ const Home = () => {
         <CardContent
           sx={{
             width: '100%',
-            height: '25vh',
+            height: 'auto',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
@@ -96,7 +133,7 @@ const Home = () => {
           <Box
             sx={{
               width: '100%',
-              height: '100%',
+              height: 'auto',
               gap: {
                 xl: 'none',
                 lg: 'none',
@@ -107,9 +144,9 @@ const Home = () => {
               marginTop: {
                 xl: '0px',
                 lg: '0px',
-                md: '25px',
-                sm: '25px',
-                xs: '25px',
+                md: '0px',
+                sm: '0px',
+                xs: '0px',
               },
               marginBottom: {
                 xl: '0px',
@@ -141,7 +178,7 @@ const Home = () => {
                     sm: '80%',
                     xs: '90%',
                   },
-                  height: '22vh',
+                  height: '24vh',
                   backgroundColor: 'black',
                   borderRadius: '15px',
                   display: 'flex',
@@ -176,8 +213,8 @@ const Home = () => {
                         xl: '26px',
                         lg: '20px',
                         md: '32px',
-                        sm: '32px',
-                        xs: '22px',
+                        sm: '20px',
+                        xs: '16px',
                       },
                       color: 'gold',
                       borderBottom: '1px solid gold',
@@ -241,13 +278,14 @@ const Home = () => {
             sm: 'none',
             xs: '45px',
           },
-          marginTop: {
+          paddingTop: {
             xl: '0px',
             lg: '0px',
             md: '25px',
             sm: '25px',
             xs: '25px',
           },
+          paddingBottom: '15px',
         }}
       >
         <Box
@@ -360,6 +398,7 @@ const Home = () => {
           </Button>
         </Box>
       </Box>
+
       <Box
         sx={{
           backgroundColor: 'black',
@@ -388,15 +427,47 @@ const Home = () => {
             sm: 'none',
             xs: '45px',
           },
-          marginTop: {
+          paddingTop: {
             xl: '0px',
             lg: '0px',
             md: '25px',
             sm: '25px',
             xs: '25px',
           },
+          paddingBottom: '15px',
         }}
       >
+        <Box
+          sx={{
+            height: {
+              xl: '400px',
+              lg: '400px',
+              md: '400px',
+              sm: '400px',
+              xs: '250px',
+            },
+            width: {
+              xl: '400px',
+              lg: '400px',
+              md: '400px',
+              sm: '400px',
+              xs: '250px',
+            },
+            display: {
+              xl: 'none',
+              lg: 'none',
+              md: 'flex',
+              sm: 'flex',
+              xs: 'flex',
+            },
+            background: `url(${Windows})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            boxShadow:
+              'rgba(255, 255, 255, 0.4) -5px -5px, rgba(255, 255, 255, 0.3) -10px -10px, rgba(255, 255, 255, 0.2) -15px -15px, rgba(255, 255, 255, 0.1) -20px -20px, rgba(255, 255, 255, 0.05) -25px -25px',
+          }}
+        />
         <Box
           sx={{
             display: 'flex',
@@ -484,6 +555,13 @@ const Home = () => {
         </Box>
         <Box
           sx={{
+            display: {
+              xl: 'flex',
+              lg: 'flex',
+              md: 'none',
+              sm: 'none',
+              xs: 'none',
+            },
             height: {
               xl: '400px',
               lg: '400px',
@@ -535,13 +613,14 @@ const Home = () => {
             sm: 'none',
             xs: '45px',
           },
-          marginTop: {
+          paddingTop: {
             xl: '0px',
             lg: '0px',
             md: '25px',
             sm: '25px',
             xs: '25px',
           },
+          paddingBottom: '15px',
         }}
       >
         <Box

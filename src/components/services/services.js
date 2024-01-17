@@ -38,7 +38,7 @@ const Services = () => {
     },
   ];
   return (
-    <>
+    <div style={{ backgroundColor: 'black' }}>
       <Menu />
       <Box
         sx={{
@@ -79,7 +79,13 @@ const Services = () => {
                 sm: '38px',
                 xs: '22px',
               },
-              marginTop: '150px',
+              marginTop: {
+                xl: '150px',
+                lg: '150px',
+                md: '150px',
+                sm: '50px',
+                xs: '50px',
+              },
               color: '#ECF1F2',
               width: '90%',
               fontFamily: 'Lemon',
@@ -123,7 +129,7 @@ const Services = () => {
             lg: '32vh',
             md: 'auto',
             sm: 'auto',
-            xs: 'auto',
+            xs: '100vh',
           },
           gap: {
             xl: 'none',
@@ -132,21 +138,21 @@ const Services = () => {
             sm: '25px',
             xs: '25px',
           },
-          marginTop: {
+          paddingTop: {
             xl: '0px',
             lg: '0px',
             md: '25px',
             sm: '25px',
             xs: '25px',
           },
-          marginBottom: {
+          paddingBottom: {
             xl: '0px',
             lg: '0px',
             md: '25px',
             sm: '25px',
             xs: '25px',
           },
-          backgroundColor: '#F1F1F1',
+          backgroundColor: 'white',
           display: 'flex',
           flexDirection: {
             xl: 'row',
@@ -267,13 +273,14 @@ const Services = () => {
             sm: 'none',
             xs: '45px',
           },
-          marginTop: {
+          paddingTop: {
             xl: '0px',
             lg: '0px',
             md: '25px',
             sm: '25px',
             xs: '25px',
           },
+          paddingBottom: '15px',
         }}
       >
         <Box
@@ -386,6 +393,7 @@ const Services = () => {
           </Button>
         </Box>
       </Box>
+
       <Box
         sx={{
           backgroundColor: 'black',
@@ -414,15 +422,47 @@ const Services = () => {
             sm: 'none',
             xs: '45px',
           },
-          marginTop: {
+          paddingTop: {
             xl: '0px',
             lg: '0px',
             md: '25px',
             sm: '25px',
             xs: '25px',
           },
+          paddingBottom: '15px',
         }}
       >
+        <Box
+          sx={{
+            height: {
+              xl: '400px',
+              lg: '400px',
+              md: '400px',
+              sm: '400px',
+              xs: '250px',
+            },
+            width: {
+              xl: '400px',
+              lg: '400px',
+              md: '400px',
+              sm: '400px',
+              xs: '250px',
+            },
+            display: {
+              xl: 'none',
+              lg: 'none',
+              md: 'flex',
+              sm: 'flex',
+              xs: 'flex',
+            },
+            background: `url(${Windows})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            boxShadow:
+              'rgba(255, 255, 255, 0.4) -5px -5px, rgba(255, 255, 255, 0.3) -10px -10px, rgba(255, 255, 255, 0.2) -15px -15px, rgba(255, 255, 255, 0.1) -20px -20px, rgba(255, 255, 255, 0.05) -25px -25px',
+          }}
+        />
         <Box
           sx={{
             display: 'flex',
@@ -510,6 +550,13 @@ const Services = () => {
         </Box>
         <Box
           sx={{
+            display: {
+              xl: 'flex',
+              lg: 'flex',
+              md: 'none',
+              sm: 'none',
+              xs: 'none',
+            },
             height: {
               xl: '400px',
               lg: '400px',
@@ -561,13 +608,14 @@ const Services = () => {
             sm: 'none',
             xs: '45px',
           },
-          marginTop: {
+          paddingTop: {
             xl: '0px',
             lg: '0px',
             md: '25px',
             sm: '25px',
             xs: '25px',
           },
+          paddingBottom: '15px',
         }}
       >
         <Box
@@ -680,7 +728,7 @@ const Services = () => {
           </Button>
         </Box>
       </Box>
-    </>
+    </div>
   );
 };
 

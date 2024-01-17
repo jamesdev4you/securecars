@@ -36,7 +36,7 @@ const LightPhoneButton = (props) => (
       height: '30px',
       background: `gold`,
       color: 'black',
-      display: { xl: 'flex', lg: 'flex', md: 'flex', sm: 'none', xs: 'none' },
+      display: { xl: 'flex', lg: 'flex', md: 'flex', sm: 'flex', xs: 'flex' },
       fontWeight: 'bold',
       '&:hover': {
         color: 'black',
@@ -72,7 +72,13 @@ const LightPhonePhoneButton = (props) => (
         fontWeight: 'bold',
       },
       border: '1px solid white',
-      marginRight: 'auto',
+      marginRight: {
+        xl: 'auto',
+        lg: 'auto',
+        md: 'none',
+        sm: 'none',
+        xs: 'none',
+      },
     }}
   >
     Call Now

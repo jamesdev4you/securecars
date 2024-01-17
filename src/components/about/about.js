@@ -15,37 +15,74 @@ import Guy from '../../assets/pics/guy1.jpg';
 
 const About = () => {
   return (
-    <>
+    <div style={{ backgroundColor: 'black' }}>
       <Menu />
       <Box
         sx={{
           width: '100%',
-          height: '95vh',
+          height: {
+            xl: '95vh',
+            lg: '95vh',
+            md: '100vh',
+            sm: '80vh',
+            xs: '60vh',
+          },
           backgroundColor: 'black',
           marginTop: '50px',
           display: 'flex',
-          flexDirection: 'row',
-          alignItems: 'start',
-          justifyContent: 'start',
+          flexDirection: {
+            xl: 'row',
+            lg: 'row',
+            md: 'column',
+            sm: 'column',
+            xs: 'column',
+          },
+          alignItems: {
+            xl: 'start',
+            lg: 'start',
+            md: 'center',
+            sm: 'center',
+            xs: 'center',
+          },
+          justifyContent: {
+            xl: 'start',
+            lg: 'start',
+            md: 'center',
+            sm: 'center',
+            xs: 'center',
+          },
+          marginBottom: {
+            xl: '0px',
+            lg: '0px',
+            md: '0px',
+            sm: '100px',
+            xs: '100px',
+          },
           gap: '50px',
-          borderBottom: '1px solid white',
         }}
       >
         <Box
           sx={{
+            display: {
+              xl: 'flex',
+              lg: 'flex',
+              md: 'none',
+              sm: 'none',
+              xs: 'none',
+            },
             height: {
               xl: '100%',
-              lg: '400px',
+              lg: '100%',
               md: '400px',
               sm: '400px',
-              xs: '250px',
+              xs: '200px',
             },
             width: {
               xl: '50%',
-              lg: '400px',
+              lg: '50%',
               md: '400px',
               sm: '400px',
-              xs: '250px',
+              xs: '200px',
             },
             background: `url(${Guys})`,
             backgroundRepeat: 'no-repeat',
@@ -56,7 +93,13 @@ const About = () => {
         />
         <Box
           sx={{
-            width: '40%',
+            width: {
+              xl: '40%',
+              lg: '40%',
+              md: '60%',
+              sm: '90%',
+              xs: '90%',
+            },
             height: '100%',
             display: 'flex',
             alignItems: 'center',
@@ -68,32 +111,66 @@ const About = () => {
             sx={{
               height: {
                 xl: '400px',
-                lg: '400px',
+                lg: '300px',
                 md: '400px',
                 sm: '400px',
-                xs: '250px',
+                xs: '500px',
+              },
+              display: {
+                xl: 'flex',
+                lg: 'flex',
+                md: 'flex',
+                sm: 'flex',
+                xs: 'flex',
               },
               width: {
                 xl: '400px',
-                lg: '400px',
+                lg: '300px',
                 md: '400px',
                 sm: '400px',
-                xs: '250px',
+                xs: '100%',
               },
               background: `url(${Guys1})`,
               backgroundRepeat: 'no-repeat',
               backgroundSize: 'cover',
-              marginRight: 'auto',
-              marginBottom: '50px',
+              marginRight: {
+                xl: 'auto',
+                lg: 'auto',
+                md: 'none',
+                sm: 'none',
+                xs: 'none',
+              },
+              marginTop: '50px',
+              marginBottom: {
+                xl: '50px',
+                lg: '50px',
+                md: '50px',
+                sm: '10px',
+                xs: '10px',
+              },
               backgroundPosition: 'top',
-              boxShadow:
-                'rgba(255, 255, 255, 0.4) 5px 5px, rgba(255, 255, 255, 0.3) 10px 10px, rgba(255, 255, 255, 0.2) 15px 15px, rgba(255, 255, 255, 0.1) 20px 20px, rgba(255, 255, 255, 0.05) 25px 25px',
+              boxShadow: {
+                sm: 'none',
+                md: 'rgba(255, 255, 255, 0.4) 5px 5px, rgba(255, 255, 255, 0.3) 10px 10px, rgba(255, 255, 255, 0.2) 15px 15px, rgba(255, 255, 255, 0.1) 20px 20px, rgba(255, 255, 255, 0.05) 25px 25px',
+              },
             }}
           />
           <Typography
-            variant='h2'
             sx={{
-              textAlign: 'left',
+              fontSize: {
+                xl: '48px',
+                lg: '48px',
+                md: '44px',
+                sm: '26px',
+                xs: '26px',
+              },
+              textAlign: {
+                xl: 'left',
+                lg: 'left',
+                md: 'center',
+                sm: 'center',
+                xs: 'center',
+              },
               fontFamily: 'lemon',
               color: 'white',
               marginBottom: '10px',
@@ -102,12 +179,24 @@ const About = () => {
             Leading Experts for Security in Miami
           </Typography>
           <Typography
-            variant='h5'
             sx={{
-              textAlign: 'left',
               fontFamily: 'lemon',
               color: 'white',
               marginBottom: '10px',
+              fontSize: {
+                xl: '32px',
+                lg: '32px',
+                md: '26px',
+                sm: '20px',
+                xs: '16px',
+              },
+              textAlign: {
+                xl: 'left',
+                lg: 'left',
+                md: 'center',
+                sm: 'center',
+                xs: 'center',
+              },
             }}
           >
             Leading Experts for Security in Miami Leading Experts for Security
@@ -144,13 +233,14 @@ const About = () => {
             sm: 'none',
             xs: '45px',
           },
-          marginTop: {
+          paddingTop: {
             xl: '0px',
             lg: '0px',
             md: '25px',
             sm: '25px',
             xs: '25px',
           },
+          paddingBottom: '15px',
         }}
       >
         <Box
@@ -263,6 +353,7 @@ const About = () => {
           </Button>
         </Box>
       </Box>
+
       <Box
         sx={{
           backgroundColor: 'black',
@@ -291,15 +382,47 @@ const About = () => {
             sm: 'none',
             xs: '45px',
           },
-          marginTop: {
+          paddingTop: {
             xl: '0px',
             lg: '0px',
             md: '25px',
             sm: '25px',
             xs: '25px',
           },
+          paddingBottom: '15px',
         }}
       >
+        <Box
+          sx={{
+            height: {
+              xl: '400px',
+              lg: '400px',
+              md: '400px',
+              sm: '400px',
+              xs: '250px',
+            },
+            width: {
+              xl: '400px',
+              lg: '400px',
+              md: '400px',
+              sm: '400px',
+              xs: '250px',
+            },
+            display: {
+              xl: 'none',
+              lg: 'none',
+              md: 'flex',
+              sm: 'flex',
+              xs: 'flex',
+            },
+            background: `url(${Windows})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            boxShadow:
+              'rgba(255, 255, 255, 0.4) -5px -5px, rgba(255, 255, 255, 0.3) -10px -10px, rgba(255, 255, 255, 0.2) -15px -15px, rgba(255, 255, 255, 0.1) -20px -20px, rgba(255, 255, 255, 0.05) -25px -25px',
+          }}
+        />
         <Box
           sx={{
             display: 'flex',
@@ -387,6 +510,13 @@ const About = () => {
         </Box>
         <Box
           sx={{
+            display: {
+              xl: 'flex',
+              lg: 'flex',
+              md: 'none',
+              sm: 'none',
+              xs: 'none',
+            },
             height: {
               xl: '400px',
               lg: '400px',
@@ -438,13 +568,14 @@ const About = () => {
             sm: 'none',
             xs: '45px',
           },
-          marginTop: {
+          paddingTop: {
             xl: '0px',
             lg: '0px',
             md: '25px',
             sm: '25px',
             xs: '25px',
           },
+          paddingBottom: '15px',
         }}
       >
         <Box
@@ -557,7 +688,7 @@ const About = () => {
           </Button>
         </Box>
       </Box>
-    </>
+    </div>
   );
 };
 

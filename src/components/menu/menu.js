@@ -39,7 +39,7 @@ export default function NavBar(props) {
       onClick={handleDrawerToggle}
       sx={{ textAlign: 'center', backgroundColor: 'black' }}
     >
-      <img src={Logo} alt='yooo' style={{ height: '150px', width: '150px' }} />
+      <img src={Logo} alt='yooo' style={{ height: '130px', width: '150px' }} />
       <Divider sx={{ backgroundColor: 'white' }} />
       <List sx={{ backgroundColor: 'black' }}>
         {navItems.map((item) => (
@@ -87,8 +87,8 @@ export default function NavBar(props) {
           <Box
             alt='yooo'
             sx={{
-              display: { sm: 'none', md: 'block' },
-              height: '70px',
+              display: { xs: 'none', sm: 'none', md: 'block' },
+              height: '50px',
               width: '70px',
               marginTop: {
                 xs: 'auto',
@@ -103,6 +103,13 @@ export default function NavBar(props) {
                 md: '10px',
                 lg: '10px',
                 xl: '10px',
+              },
+              marginLeft: {
+                xs: 'auto',
+                sm: 'auto',
+                md: '0px',
+                lg: '0px',
+                xl: '0px',
               },
               backgroundImage: `url(${Logo})`,
               backgroundRepeat: 'no-repeat',

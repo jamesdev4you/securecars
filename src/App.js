@@ -11,7 +11,7 @@ const theme = createTheme({
     pillRadius: 50,
   },
   palette: {
-    primary: { main: '#ffffff' },
+    primary: { main: '#000000' },
     secondary: {
       main: '#ffffff',
     },
