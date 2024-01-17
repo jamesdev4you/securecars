@@ -14,14 +14,18 @@ import Logo from '../../assets/pics/logo.jpg';
 import '../../navlink.css';
 import '../../index.css';
 import { Outlet } from 'react-router-dom';
-import Button from '@mui/material/Button';
 import {
   LightPhoneButton,
   LightPhonePhoneButton,
 } from '../../styledComponents';
 import { Typography } from '@mui/material';
 const drawerWidth = 240;
-const navItems = [{ text: 'Home', href: '/' }];
+const navItems = [
+  { text: 'Home', href: '/' },
+  { text: 'Contact', href: '/contact' },
+  { text: 'About', href: '/about' },
+  { text: 'Services', href: '/services' },
+];
 
 export default function NavBar(props) {
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -109,7 +113,7 @@ export default function NavBar(props) {
 
           <Box
             sx={{
-              display: { xs: 'none', sm: 'none', md: 'block' },
+              display: { xs: 'none', sm: 'none', md: 'flex' },
               marginLeft: 'auto',
             }}
           >
@@ -128,7 +132,6 @@ export default function NavBar(props) {
                     fontFamily: 'Lemon',
                     color: 'white',
                     fontSize: '20px',
-                    marginBottom: '30px',
                     '&:hover': {
                       color: 'gold',
                     },
