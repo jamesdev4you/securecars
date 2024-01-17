@@ -43,7 +43,7 @@ const Home = () => {
   ];
 
   return (
-    <>
+    <div style={{ backgroundColor: 'black' }}>
       <Menu />
       <Card
         sx={{
@@ -733,7 +733,7 @@ const Home = () => {
           </Button>
         </Box>
       </Box>
-    </>
+    </div>
   );
 };
 
