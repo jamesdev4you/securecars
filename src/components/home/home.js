@@ -424,7 +424,7 @@ const Home = () => {
             lg: '0px',
             md: '25px',
             sm: '25px',
-            xs: '25px',
+            xs: '80px',
           },
           paddingBottom: '15px',
         }}
@@ -610,7 +610,7 @@ const Home = () => {
             lg: '0px',
             md: '25px',
             sm: '25px',
-            xs: '25px',
+            xs: '80px',
           },
           paddingBottom: '15px',
         }}
