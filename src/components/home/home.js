@@ -146,7 +146,7 @@ const Home = () => {
             lg: '0px',
             md: '25px',
             sm: '50px',
-            xs: '90px',
+            xs: '40px',
           },
           backgroundColor: 'white',
           display: 'flex',
