@@ -48,11 +48,11 @@ const Home = () => {
         sx={{
           width: '100%',
           height: {
-            xl: '105vh',
-            lg: '105vh',
-            md: '185vh',
-            sm: '185vh',
-            xs: '185vh',
+            xl: '80vh',
+            lg: '80vh',
+            md: '80vh',
+            sm: '80vh',
+            xs: '80vh',
           },
           marginBottom: '-25px',
           backgroundColor: 'white',
@@ -73,6 +73,7 @@ const Home = () => {
           playsInline // This ensures compatibility on mobile devices
           disablePictureInPicture // Optional, prevents the Picture-in-Picture mode on some browsers
           controls={false}
+          preload='auto'
         />
         <CardContent
           sx={{
@@ -121,137 +122,126 @@ const Home = () => {
             Best Luxury Security Service in Miami
           </Typography>
         </CardContent>
-
-        <CardContent
-          sx={{
-            width: '100%',
-            height: 'auto',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            flexDirection: 'column',
-          }}
-        >
+      </Card>
+      <Box
+        sx={{
+          width: '100%',
+          height: 'auto',
+          gap: {
+            xl: 'none',
+            lg: 'none',
+            md: '25px',
+            sm: '25px',
+            xs: '25px',
+          },
+          marginTop: {
+            xl: '0px',
+            lg: '0px',
+            md: '0px',
+            sm: '50px',
+            xs: '0px',
+          },
+          paddingBottom: {
+            xl: '0px',
+            lg: '0px',
+            md: '25px',
+            sm: '50px',
+            xs: '90px',
+          },
+          backgroundColor: 'white',
+          display: 'flex',
+          flexDirection: {
+            xl: 'row',
+            lg: 'row',
+            md: 'column',
+            sm: 'column',
+            xs: 'column',
+          },
+          alignItems: 'center',
+          justifyContent: 'space-around',
+        }}
+      >
+        {benefitsOptions.map(({ title, desc, logo }) => (
           <Box
             sx={{
-              width: '100%',
-              height: 'auto',
-              gap: {
-                xl: 'none',
-                lg: 'none',
-                md: '25px',
-                sm: '25px',
-                xs: '25px',
+              width: {
+                xl: '20%',
+                lg: '20%',
+                md: '65%',
+                sm: '80%',
+                xs: '90%',
               },
-              marginTop: {
-                xl: '0px',
-                lg: '0px',
-                md: '0px',
-                sm: '50px',
-                xs: '50px',
-              },
-              marginBottom: {
-                xl: '0px',
-                lg: '0px',
-                md: '25px',
-                sm: '50px',
-                xs: '50px',
-              },
-              backgroundColor: 'white',
+              height: '24vh',
+              backgroundColor: 'black',
+              borderRadius: '15px',
               display: 'flex',
-              flexDirection: {
-                xl: 'row',
-                lg: 'row',
-                md: 'column',
-                sm: 'column',
-                xs: 'column',
-              },
+              flexDirection: 'column',
               alignItems: 'center',
-              justifyContent: 'space-around',
+              justifyContent: 'start',
+              padding: '1em',
+              boxShadow: 'rgb(38, 57, 77) 0px 20px 30px -10px',
             }}
           >
-            {benefitsOptions.map(({ title, desc, logo }) => (
-              <Box
+            <Box
+              sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                width: '100%',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <SvgIcon
+                component={logo}
+                inheritViewBox
                 sx={{
-                  width: {
-                    xl: '20%',
-                    lg: '20%',
-                    md: '65%',
-                    sm: '80%',
-                    xs: '90%',
+                  height: '40px',
+                  width: '40px',
+                  color: 'gold',
+                }}
+              />
+              <Typography
+                sx={{
+                  fontSize: {
+                    xl: '26px',
+                    lg: '20px',
+                    md: '32px',
+                    sm: '20px',
+                    xs: '16px',
                   },
-                  height: '24vh',
-                  backgroundColor: 'black',
-                  borderRadius: '15px',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  alignItems: 'center',
-                  justifyContent: 'start',
-                  padding: '1em',
-                  boxShadow: 'rgb(38, 57, 77) 0px 20px 30px -10px',
+                  color: 'gold',
+                  borderBottom: '1px solid gold',
+                  width: '100%',
+                  textAlign: 'center',
+                  paddingBottom: '.3em',
+                  paddingTop: '.3em',
+                  fontFamily: 'Lemon',
                 }}
               >
-                <Box
-                  sx={{
-                    display: 'flex',
-                    flexDirection: 'column',
-                    width: '100%',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                  }}
-                >
-                  <SvgIcon
-                    component={logo}
-                    inheritViewBox
-                    sx={{
-                      height: '40px',
-                      width: '40px',
-                      color: 'gold',
-                    }}
-                  />
-                  <Typography
-                    sx={{
-                      fontSize: {
-                        xl: '26px',
-                        lg: '20px',
-                        md: '32px',
-                        sm: '20px',
-                        xs: '16px',
-                      },
-                      color: 'gold',
-                      borderBottom: '1px solid gold',
-                      width: '100%',
-                      textAlign: 'center',
-                      paddingBottom: '.3em',
-                      paddingTop: '.3em',
-                      fontFamily: 'Lemon',
-                    }}
-                  >
-                    {title}
-                  </Typography>
-                </Box>
-                <Typography
-                  sx={{
-                    color: 'white',
-                    fontSize: {
-                      xl: '18px',
-                      lg: '16px',
-                      md: '22px',
-                      sm: '20px',
-                      xs: '14px',
-                    },
-                    width: '100%',
-                    textAlign: 'center',
-                    marginTop: '.3em',
-                  }}
-                >
-                  {desc}
-                </Typography>
-              </Box>
-            ))}
+                {title}
+              </Typography>
+            </Box>
+            <Typography
+              sx={{
+                color: 'white',
+                fontSize: {
+                  xl: '18px',
+                  lg: '16px',
+                  md: '22px',
+                  sm: '20px',
+                  xs: '14px',
+                },
+                width: '100%',
+                textAlign: 'center',
+                marginTop: '.3em',
+              }}
+            >
+              {desc}
+            </Typography>
           </Box>
-        </CardContent>
-      </Card>
+        ))}
+      </Box>
+
       <Box
         sx={{
           backgroundColor: 'black',
