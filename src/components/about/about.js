@@ -2,13 +2,13 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import Guys1 from '../../assets/pics/guy1.jpg';
+import Guys1 from '../../assets/pics/cars3.jpg';
 import Guys from '../../assets/pics/guy3.jpg';
 import Menu from '../menu/menu';
 import { LightPhonePhoneButton } from '../../styledComponents';
 import Ferrari from '../../assets/pics/cars7.jpg';
 import Windows from '../../assets/pics/windows.jpg';
-import Guy from '../../assets/pics/guy1.jpg';
+import Guy from '../../assets/pics/guys4.jpg';
 
 const About = () => {
   return (
@@ -22,7 +22,7 @@ const About = () => {
             lg: '95vh',
             md: '100vh',
             sm: '80vh',
-            xs: '60vh',
+            xs: '80vh',
           },
           backgroundColor: 'black',
           marginTop: '50px',
@@ -53,9 +53,16 @@ const About = () => {
             lg: '0px',
             md: '0px',
             sm: '100px',
-            xs: '100px',
+          },
+          paddingBottom: {
+            xl: '0px',
+            lg: '0px',
+            md: '0px',
+            sm: '10px',
+            xs: '30px',
           },
           gap: '50px',
+          borderBottom: '1px solid white',
         }}
       >
         <Box
@@ -145,11 +152,19 @@ const About = () => {
                 sm: '10px',
                 xs: '10px',
               },
-              backgroundPosition: 'top',
+              backgroundPosition: 'center',
               boxShadow: {
                 sm: 'none',
                 md: 'rgba(255, 255, 255, 0.4) 5px 5px, rgba(255, 255, 255, 0.3) 10px 10px, rgba(255, 255, 255, 0.2) 15px 15px, rgba(255, 255, 255, 0.1) 20px 20px, rgba(255, 255, 255, 0.05) 25px 25px',
               },
+              border: {
+                xl: 'none',
+                lg: 'none',
+                md: 'none',
+                sm: '3px solid gold',
+                xs: '3px solid gold',
+              },
+              borderRadius: '15px',
             }}
           />
           <Typography
@@ -181,8 +196,8 @@ const About = () => {
               color: 'white',
               marginBottom: '10px',
               fontSize: {
-                xl: '32px',
-                lg: '32px',
+                xl: '28px',
+                lg: '28px',
                 md: '26px',
                 sm: '20px',
                 xs: '16px',
@@ -196,8 +211,8 @@ const About = () => {
               },
             }}
           >
-            Leading Experts for Security in Miami Leading Experts for Security
-            in Miami
+            Fortified Cars, Impenetrable Safety, Expertly Trained Personnel for
+            Secure Journeys.
           </Typography>
           <LightPhonePhoneButton />
         </Box>
@@ -297,7 +312,7 @@ const About = () => {
               color: 'white',
             }}
           >
-            More About Quick Wheels
+            Luxurious Protection
           </Typography>
           <Typography
             sx={{
@@ -313,9 +328,9 @@ const About = () => {
               },
             }}
           >
-            Quick Wheels: Effortlessly transport your vehicle across the USA
-            with us. Reliable, speedy, and secure – we make moving your car
-            worry-free. Trust Quick Wheels for a smooth, efficient journey.
+            Luxurious Protection at Cachet Bulletproof Services merges elegance
+            with security. Our fleet of high-end, bulletproof vehicles offers
+            both opulence and unparalleled safety.
           </Typography>
           <Typography
             sx={{
@@ -331,12 +346,12 @@ const About = () => {
               },
             }}
           >
-            Your go-to for stress-free vehicle transport across the USA.
-            Specializing in personal cars, we ensure fast, secure, and reliable
-            relocation. Trust us to move your vehicle effortlessly.{' '}
+            Travel in style, comfort, and confidence, knowing every journey is
+            under the safeguard of our advanced protective technology and expert
+            care.
           </Typography>
           <Button
-            href='tel:14159423491'
+            href='tel:17865327021'
             variant='contained'
             sx={{
               backgroundColor: 'white',
@@ -453,7 +468,7 @@ const About = () => {
               color: 'white',
             }}
           >
-            More About Quick Wheels
+            Bulletproof Windows
           </Typography>
           <Typography
             sx={{
@@ -469,9 +484,10 @@ const About = () => {
               },
             }}
           >
-            Quick Wheels: Effortlessly transport your vehicle across the USA
-            with us. Reliable, speedy, and secure – we make moving your car
-            worry-free. Trust Quick Wheels for a smooth, efficient journey.
+            Bulletproof Windows, a hallmark of Cachet Bulletproof Services,
+            offer unmatched resilience and clarity. Ideal for high-risk
+            environments, they ensure your safety without compromising the
+            aesthetic and visibility.
           </Typography>
           <Typography
             sx={{
@@ -487,12 +503,12 @@ const About = () => {
               },
             }}
           >
-            Your go-to for stress-free vehicle transport across the USA.
-            Specializing in personal cars, we ensure fast, secure, and reliable
-            relocation. Trust us to move your vehicle effortlessly.{' '}
+            Crafted with cutting-edge materials, these windows provide superior
+            protection against ballistic threats while maintaining the sleek
+            appearance of our luxury vehicles.
           </Typography>
           <Button
-            href='tel:14159423491'
+            href='tel:17865327021'
             variant='contained'
             sx={{
               backgroundColor: 'white',
@@ -632,7 +648,7 @@ const About = () => {
               color: 'white',
             }}
           >
-            More About Quick Wheels
+            Safety In Numbers
           </Typography>
           <Typography
             sx={{
@@ -648,9 +664,9 @@ const About = () => {
               },
             }}
           >
-            Quick Wheels: Effortlessly transport your vehicle across the USA
-            with us. Reliable, speedy, and secure – we make moving your car
-            worry-free. Trust Quick Wheels for a smooth, efficient journey.
+            Safety in Numbers reflects our ethos at Cachet Bulletproof Services.
+            Our convoy options, comprising multiple bulletproof vehicles,
+            provide an added layer of security for clients.
           </Typography>
           <Typography
             sx={{
@@ -666,12 +682,13 @@ const About = () => {
               },
             }}
           >
-            Your go-to for stress-free vehicle transport across the USA.
-            Specializing in personal cars, we ensure fast, secure, and reliable
-            relocation. Trust us to move your vehicle effortlessly.{' '}
+            This strategic approach not only enhances physical protection but
+            also creates a psychological deterrent against potential threats.
+            Travel with peace of mind, knowing you're surrounded by a
+            formidable, well-coordinated shield of safety.
           </Typography>
           <Button
-            href='tel:14159423491'
+            href='tel:17865327021'
             variant='contained'
             sx={{
               backgroundColor: 'white',

@@ -5,9 +5,13 @@ import Typography from '@mui/material/Typography';
 import safe from '../../assets/pics/trunksafe2.jpg';
 import SvgIcon from '@mui/material/SvgIcon';
 import Button from '@mui/material/Button';
-import Ferrari from '../../assets/pics/cars7.jpg';
-import Windows from '../../assets/pics/windows.jpg';
-import Guy from '../../assets/pics/guy1.jpg';
+import Ferrari from '../../assets/pics/cars6.jpg';
+import Windows from '../../assets/pics/cars5.jpg';
+import Guy from '../../assets/pics/trunksafe2.jpg';
+import Card from '@mui/material/Card';
+import CardMedia from '@mui/material/CardMedia';
+import Video from '../../assets/videos/move2.mp4';
+import CardContent from '@mui/material/CardContent';
 import '../../index.css';
 import { ReactComponent as HowOne } from '../../assets/howOne.svg';
 import { ReactComponent as HowTwo } from '../../assets/howTwo.svg';
@@ -17,110 +21,108 @@ import { ReactComponent as HowFour } from '../../assets/howFour.svg';
 const Services = () => {
   const contactOptions = [
     {
-      title: 'Fill Out Form',
-      desc: 'Complete Quick Wheels easy form for stress-free vehicle transport across the USA. Just enter your details and let us handle the rest. Safe, reliable, quick!',
+      title: 'Contact Us',
+      desc: 'Reach out for elite bulletproof car services – your safety, our priority. You are one call away from luxurious Bulletproof.',
       logo: HowThree,
     },
     {
-      title: 'Car gets picked up',
-      desc: 'Quick Wheels ensures a smooth pickup of your car for USA-wide transport. Rely on us for efficient, secure, and timely vehicle collection. Your journey starts here!',
+      title: 'Research Acquired',
+      desc: 'Innovative, cutting-edge research ensuring the highest standard in bulletproof car safety for your route.',
       logo: HowTwo,
     },
     {
       title: 'Routes Taken',
-      desc: 'Quick Wheels carefully selects optimal routes for transporting your vehicle across the USA, guaranteeing efficiency and safety in every journey. Your car is in good hands!',
+      desc: 'Strategically planned, secure routes for your utmost safety in bulletproof travel.',
       logo: HowFour,
     },
     {
-      title: 'Mint Condition',
-      desc: 'Discover the magic of Quick Wheels! We ensure your car arrives in mint condition, making your journey unforgettable. Travel with confidence.',
+      title: 'Arriving Safely',
+      desc: 'Guaranteeing your secure arrival with unparalleled bulletproof protection and expert navigation.',
       logo: HowOne,
     },
   ];
   return (
     <div style={{ backgroundColor: 'black' }}>
       <Menu />
-      <Box
+      <Card
         sx={{
           width: '100%',
           height: {
-            xl: '65vh',
-            lg: '65vh',
-            md: '65vh',
-            sm: '45vh',
-            xs: '45vh',
+            xl: '80vh',
+            lg: '80vh',
+            md: '80vh',
+            sm: '80vh',
+            xs: '80vh',
           },
-          backgroundImage: `url(${safe})`,
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
-          backgroundPosition: '50% 50%',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'start',
+          marginBottom: '-25px',
+          backgroundColor: 'white',
         }}
       >
-        <Box
+        <CardMedia
+          src={Video}
+          component='video'
           sx={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'start',
-            flexDirection: 'column',
             width: '100%',
-            height: '100%',
-            backgroundColor: 'rgba(0,0,0,0.6)',
+            height: '75vh',
+            objectFit: 'cover',
+            position: 'relative',
+          }}
+          autoPlay
+          loop
+          muted
+          playsInline // This ensures compatibility on mobile devices
+          disablePictureInPicture // Optional, prevents the Picture-in-Picture mode on some browsers
+          controls={false}
+          preload='auto'
+        />
+        <CardContent
+          sx={{
+            position: 'absolute',
+            top: {
+              xl: '70px',
+              lg: '70px',
+              md: '60px',
+              sm: '60px',
+              xs: '50px',
+            },
+            color: 'white',
+            margin: 'auto',
+            width: '100%',
+            backgroundColor: 'rgba(0,0,0,0.5)',
           }}
         >
           <Typography
             sx={{
-              fontSize: {
-                xl: '64px',
-                lg: '68px',
-                md: '38px',
-                sm: '38px',
-                xs: '22px',
-              },
-              marginTop: {
-                xl: '150px',
-                lg: '150px',
-                md: '150px',
-                sm: '50px',
-                xs: '50px',
-              },
-              color: '#ECF1F2',
-              width: '90%',
-              fontFamily: 'Lemon',
+              fontFamily: 'lemon',
               textAlign: 'center',
-              paddingTop: {
-                xl: '64px',
-                lg: '.5em',
-                md: '38px',
-                sm: '70px',
-                xs: '150px',
+              fontSize: {
+                xl: '56px',
+                lg: '56px',
+                md: '44px',
+                sm: '26px',
+                xs: '20px',
               },
-              borderBottom: '1px solid gold',
             }}
           >
-            Transportation Done Right
+            We Prioritize Your Safety
           </Typography>
           <Typography
             sx={{
-              color: '#ECF1F2',
-              width: '88%',
-              fontFamily: 'Lemon',
-              fontSize: {
-                xl: '64px',
-                lg: '56px',
-                md: '38px',
-                sm: '38px',
-                xs: '20px',
-              },
+              fontFamily: 'lemon',
               textAlign: 'center',
+              fontSize: {
+                xl: '44px',
+                lg: '44px',
+                md: '26px',
+                sm: '20px',
+                xs: '16px',
+              },
             }}
           >
-            Secure your vehicle shipping today!
+            Bulletproof Vehicles, Indestructable Safes, and Trained Body Guards
           </Typography>
-        </Box>
-      </Box>
+        </CardContent>
+      </Card>
       <Box
         sx={{
           width: '100%',
@@ -340,7 +342,7 @@ const Services = () => {
               color: 'white',
             }}
           >
-            More About Quick Wheels
+            Deluxe Transportation
           </Typography>
           <Typography
             sx={{
@@ -356,9 +358,9 @@ const Services = () => {
               },
             }}
           >
-            Quick Wheels: Effortlessly transport your vehicle across the USA
-            with us. Reliable, speedy, and secure – we make moving your car
-            worry-free. Trust Quick Wheels for a smooth, efficient journey.
+            Deluxe Transportation at Cachet Bulletproof Services redefines
+            luxury travel with safety. Our fleet, featuring premium, bulletproof
+            vehicles, offers an exquisite blend of comfort and security.
           </Typography>
           <Typography
             sx={{
@@ -374,18 +376,18 @@ const Services = () => {
               },
             }}
           >
-            Your go-to for stress-free vehicle transport across the USA.
-            Specializing in personal cars, we ensure fast, secure, and reliable
-            relocation. Trust us to move your vehicle effortlessly.{' '}
+            Each car is equipped with advanced protective technology and lavish
+            interiors, ensuring a travel experience that is both sumptuous and
+            secure. Indulge in the ultimate peace of mind with every journey.
           </Typography>
           <Button
-            href='tel:14159423491'
+            href='tel:17865327021'
             variant='contained'
             sx={{
               backgroundColor: 'white',
               color: 'black',
               marginRight: 'auto',
-              '&:hover': { color: 'black' },
+              '&:hover': { backgroundColor: 'gold' },
             }}
           >
             {' '}
@@ -496,7 +498,7 @@ const Services = () => {
               color: 'white',
             }}
           >
-            More About Quick Wheels
+            Diligent Protection
           </Typography>
           <Typography
             sx={{
@@ -512,9 +514,10 @@ const Services = () => {
               },
             }}
           >
-            Quick Wheels: Effortlessly transport your vehicle across the USA
-            with us. Reliable, speedy, and secure – we make moving your car
-            worry-free. Trust Quick Wheels for a smooth, efficient journey.
+            Diligent Protection is the cornerstone of Cachet Bulletproof
+            Services. We offer meticulously crafted security solutions with our
+            bulletproof vehicles, ensuring each journey is safeguarded against
+            any threat.
           </Typography>
           <Typography
             sx={{
@@ -530,18 +533,19 @@ const Services = () => {
               },
             }}
           >
-            Your go-to for stress-free vehicle transport across the USA.
-            Specializing in personal cars, we ensure fast, secure, and reliable
-            relocation. Trust us to move your vehicle effortlessly.{' '}
+            Our commitment to your safety is unwavering, combining advanced
+            technology with rigorous protocols. Trust us to provide a shield of
+            protection that's as relentless and thorough as your need for
+            security.
           </Typography>
           <Button
-            href='tel:14159423491'
+            href='tel:17865327021'
             variant='contained'
             sx={{
               backgroundColor: 'white',
               color: 'black',
               marginRight: 'auto',
-              '&:hover': { color: 'black' },
+              '&:hover': { backgroundColor: 'gold' },
             }}
           >
             {' '}
@@ -675,7 +679,7 @@ const Services = () => {
               color: 'white',
             }}
           >
-            More About Quick Wheels
+            Impenetrable Safe
           </Typography>
           <Typography
             sx={{
@@ -691,9 +695,10 @@ const Services = () => {
               },
             }}
           >
-            Quick Wheels: Effortlessly transport your vehicle across the USA
-            with us. Reliable, speedy, and secure – we make moving your car
-            worry-free. Trust Quick Wheels for a smooth, efficient journey.
+            Impenetrable Safe, a key feature of Cachet Bulletproof Services,
+            embodies ultimate security. Our vehicles are fortified with
+            state-of-the-art bulletproof technology, creating a mobile safe
+            haven.
           </Typography>
           <Typography
             sx={{
@@ -709,18 +714,19 @@ const Services = () => {
               },
             }}
           >
-            Your go-to for stress-free vehicle transport across the USA.
-            Specializing in personal cars, we ensure fast, secure, and reliable
-            relocation. Trust us to move your vehicle effortlessly.{' '}
+            This unmatched protection is discreetly integrated into each car,
+            ensuring clients travel with confidence, shielded from external
+            threats. Experience the peace of mind that comes from knowing you're
+            surrounded by invincible safety.
           </Typography>
           <Button
-            href='tel:14159423491'
+            href='tel:17865327021'
             variant='contained'
             sx={{
               backgroundColor: 'white',
               color: 'black',
               marginRight: 'auto',
-              '&:hover': { color: 'black' },
+              '&:hover': { backgroundColor: 'gold' },
             }}
           >
             {' '}

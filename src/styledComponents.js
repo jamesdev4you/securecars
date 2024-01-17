@@ -5,7 +5,7 @@ import Link from '@mui/material/Link';
 const MyStyledButton = (props) => (
   <Button
     variant='contained'
-    href='tel:14159423491'
+    href='tel:17865327021'
     sx={{
       paddingBottom: '5px',
       width: '200px',
@@ -47,7 +47,7 @@ const LightPhoneButton = (props) => (
       border: '1px solid white',
       marginLeft: 'auto',
     }}
-    href='tel:14159423491'
+    href='tel:17865327021'
   >
     Call Now
   </Button>
@@ -56,7 +56,7 @@ const LightPhoneButton = (props) => (
 const LightPhonePhoneButton = (props) => (
   <Button
     variant='contained'
-    href='tel:14159423491'
+    href='tel:17865327021'
     sx={{
       paddingBottom: '5px',
       width: '150px',

@@ -5,10 +5,10 @@ import Menu from '../menu/menu';
 import '../../index.css';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
-import Video from '../../assets/videos/securedrone.mp4';
+import Video from '../../assets/videos/move1.mp4';
 import Button from '@mui/material/Button';
-import Ferrari from '../../assets/pics/cars7.jpg';
-import Windows from '../../assets/pics/windows.jpg';
+import Ferrari from '../../assets/pics/cars.jpg';
+import Windows from '../../assets/pics/cars4.jpg';
 import Guy from '../../assets/pics/guy1.jpg';
 import CardContent from '@mui/material/CardContent';
 import SvgIcon from '@mui/material/SvgIcon';
@@ -20,23 +20,23 @@ import { ReactComponent as Support } from '../../assets/support.svg';
 const Home = () => {
   const benefitsOptions = [
     {
-      title: 'Safe & Secure',
-      desc: 'Your vehicles safety is our priority. Trust us for a secure relocation experience with top-notch security measures!',
+      title: 'Pristine Condition',
+      desc: 'Impeccable, unblemished bulletproof protection, maintaining you and your valuables pristine and secure condition.',
       logo: CarWash,
     },
     {
       title: 'Saving Money',
-      desc: 'Save big with our cost-effective solutions. Affordable, reliable, and tailored to your budget. Drive smart with us!',
+      desc: 'Cost-effective bulletproofing services, ensuring safety and savings for your peace of mind.',
       logo: Coin,
     },
     {
-      title: 'Quick Transport',
-      desc: 'Tailored transport for you—swift, reliable, and secure. Experience excellence on every journey with us!',
+      title: 'Timely Transport',
+      desc: 'Swift, secure transport solutions, delivering bulletproof reliability and punctuality every time.',
       logo: Delivery,
     },
     {
-      title: 'Customer Service',
-      desc: 'Quick Wheels: 24/7 support ensures a seamless experience. Your satisfaction is our priority. Your journey begins here!',
+      title: 'Excellent Service',
+      desc: 'Unmatched excellence in bulletproof car services, ensuring client satisfaction and superior protection.',
       logo: Support,
     },
   ];
@@ -142,8 +142,8 @@ const Home = () => {
             xs: '0px',
           },
           paddingBottom: {
-            xl: '0px',
-            lg: '0px',
+            xl: '20px',
+            lg: '20px',
             md: '25px',
             sm: '50px',
             xs: '40px',
@@ -337,7 +337,7 @@ const Home = () => {
               color: 'white',
             }}
           >
-            More About Quick Wheels
+            Shielded Mobility Rentals
           </Typography>
           <Typography
             sx={{
@@ -353,9 +353,10 @@ const Home = () => {
               },
             }}
           >
-            Quick Wheels: Effortlessly transport your vehicle across the USA
-            with us. Reliable, speedy, and secure – we make moving your car
-            worry-free. Trust Quick Wheels for a smooth, efficient journey.
+            Shielded Mobility Rentals by Cachet Bulletproof Services offers
+            top-tier, fortified vehicle rentals for those seeking unparalleled
+            safety and security. Our fleet, equipped with advanced bulletproof
+            technology, is designed to provide maximum protection.
           </Typography>
           <Typography
             sx={{
@@ -371,18 +372,18 @@ const Home = () => {
               },
             }}
           >
-            Your go-to for stress-free vehicle transport across the USA.
-            Specializing in personal cars, we ensure fast, secure, and reliable
-            relocation. Trust us to move your vehicle effortlessly.{' '}
+            Experience the ultimate peace of mind on the road, where luxury
+            meets robust security, tailored for discerning clients who
+            prioritize safety without compromise.
           </Typography>
           <Button
-            href='tel:14159423491'
+            href='tel:17865327021'
             variant='contained'
             sx={{
               backgroundColor: 'white',
               color: 'black',
               marginRight: 'auto',
-              '&:hover': { color: 'black' },
+              '&:hover': { backgroundColor: 'gold' },
             }}
           >
             {' '}
@@ -493,7 +494,7 @@ const Home = () => {
               color: 'white',
             }}
           >
-            More About Quick Wheels
+            Trained Service Members
           </Typography>
           <Typography
             sx={{
@@ -509,9 +510,10 @@ const Home = () => {
               },
             }}
           >
-            Quick Wheels: Effortlessly transport your vehicle across the USA
-            with us. Reliable, speedy, and secure – we make moving your car
-            worry-free. Trust Quick Wheels for a smooth, efficient journey.
+            Trained Service Members at Cachet Bulletproof Services are experts
+            in security and discretion. Trust our skilled team to deliver
+            unparalleled protection and service on every bulletproof vehicle
+            rental.
           </Typography>
           <Typography
             sx={{
@@ -527,18 +529,18 @@ const Home = () => {
               },
             }}
           >
-            Your go-to for stress-free vehicle transport across the USA.
-            Specializing in personal cars, we ensure fast, secure, and reliable
-            relocation. Trust us to move your vehicle effortlessly.{' '}
+            Each member is rigorously trained in defensive driving, threat
+            assessment, and customer service, ensuring not just a safe journey,
+            but a smooth and professional experience.
           </Typography>
           <Button
-            href='tel:14159423491'
+            href='tel:17865327021'
             variant='contained'
             sx={{
               backgroundColor: 'white',
               color: 'black',
               marginRight: 'auto',
-              '&:hover': { color: 'black' },
+              '&:hover': { backgroundColor: 'gold' },
             }}
           >
             {' '}
@@ -672,7 +674,7 @@ const Home = () => {
               color: 'white',
             }}
           >
-            More About Quick Wheels
+            Security You Deserve
           </Typography>
           <Typography
             sx={{
@@ -688,9 +690,10 @@ const Home = () => {
               },
             }}
           >
-            Quick Wheels: Effortlessly transport your vehicle across the USA
-            with us. Reliable, speedy, and secure – we make moving your car
-            worry-free. Trust Quick Wheels for a smooth, efficient journey.
+            At Cachet Bulletproof Services, 'Security You Deserve' embodies our
+            commitment to your safety. Our specialized fleet, reinforced with
+            state-of-the-art bulletproof technology, offers unmatched security
+            for those requiring high-level protection.
           </Typography>
           <Typography
             sx={{
@@ -706,18 +709,18 @@ const Home = () => {
               },
             }}
           >
-            Your go-to for stress-free vehicle transport across the USA.
-            Specializing in personal cars, we ensure fast, secure, and reliable
-            relocation. Trust us to move your vehicle effortlessly.{' '}
+            Each rental is tailored to meet your unique needs, ensuring you
+            travel with confidence and peace of mind in any situation, backed by
+            our expert service
           </Typography>
           <Button
-            href='tel:14159423491'
+            href='tel:17865327021'
             variant='contained'
             sx={{
               backgroundColor: 'white',
               color: 'black',
               marginRight: 'auto',
-              '&:hover': { color: 'black' },
+              '&:hover': { backgroundColor: 'gold' },
             }}
           >
             {' '}
