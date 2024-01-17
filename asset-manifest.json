@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/securecars/static/css/main.7f03ac1e.css",
+    "main.js": "/securecars/static/js/main.e3e06aba.js",
+    "static/media/securedrone.mp4": "/securecars/static/media/securedrone.9963ab37fe1b0c51b7bf.mp4",
+    "static/media/trunksafe2.jpg": "/securecars/static/media/trunksafe2.979607cfd6e53aabca84.jpg",
+    "static/media/cars3.jpg": "/securecars/static/media/cars3.8177b1ce2c6732d7200d.jpg",
+    "static/media/guy1.jpg": "/securecars/static/media/guy1.3c9f48fe0a11d7d115c3.jpg",
+    "static/media/guy3.jpg": "/securecars/static/media/guy3.1b03997e319a62d502e1.jpg",
+    "static/media/cars7.jpg": "/securecars/static/media/cars7.8ae63d2566ae619f6d4f.jpg",
+    "static/media/windows.jpg": "/securecars/static/media/windows.19064a361b1813bbf6ce.jpg",
+    "static/media/Business-axoOa.ttf": "/securecars/static/media/Business-axoOa.5f90589c0c8608f2220a.ttf",
+    "static/media/logo.jpg": "/securecars/static/media/logo.da908cd198b06bfdf0ed.jpg",
+    "static/media/LemonMilkRegular-X3XE2.otf": "/securecars/static/media/LemonMilkRegular-X3XE2.55fc24317b9c2b507dd8.otf",
+    "static/media/support.svg": "/securecars/static/media/support.db21aed438e4395470e6f676373aa30c.svg",
+    "static/media/delivery.svg": "/securecars/static/media/delivery.7742a0ed0fd23b012c4476c729ba754c.svg",
+    "static/media/car-wash.svg": "/securecars/static/media/car-wash.3ec0b5aeadc6c7b4d357ac59dc73dba7.svg",
+    "static/media/howTwo.svg": "/securecars/static/media/howTwo.2e13f934c69a03a4d8d46c0a39c72362.svg",
+    "static/media/howFour.svg": "/securecars/static/media/howFour.6ba9f1af329f6401db707f4ff09f60c2.svg",
+    "static/media/coin.svg": "/securecars/static/media/coin.ddc79e56d9e46762add8f03709af1c46.svg",
+    "static/media/howThree.svg": "/securecars/static/media/howThree.97c5e829039cd2a1a37c1486c0ddc43c.svg",
+    "static/media/howOne.svg": "/securecars/static/media/howOne.3c17a22ef614198101415b692842564d.svg",
+    "index.html": "/securecars/index.html",
+    "main.7f03ac1e.css.map": "/securecars/static/css/main.7f03ac1e.css.map",
+    "main.e3e06aba.js.map": "/securecars/static/js/main.e3e06aba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f03ac1e.css",
+    "static/js/main.e3e06aba.js"
+  ]
+}
