@@ -72,7 +72,7 @@ const LightPhonePhoneButton = (props) => (
         fontWeight: 'bold',
       },
       border: '1px solid white',
-      margin: 'auto',
+      marginRight: 'auto',
     }}
   >
     Call Now
