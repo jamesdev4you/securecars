@@ -12,6 +12,8 @@ import Windows from '../../assets/pics/cars4.jpg';
 import Guy from '../../assets/pics/guy1.jpg';
 import CardContent from '@mui/material/CardContent';
 import SvgIcon from '@mui/material/SvgIcon';
+import Footer from '../footer/footer';
+
 import { ReactComponent as CarWash } from '../../assets/car-wash.svg';
 import { ReactComponent as Coin } from '../../assets/coin.svg';
 import { ReactComponent as Delivery } from '../../assets/delivery.svg';
@@ -728,6 +730,7 @@ const Home = () => {
           </Button>
         </Box>
       </Box>
+      <Footer />
     </div>
   );
 };
