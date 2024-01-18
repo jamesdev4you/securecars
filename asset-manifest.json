@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4434476.css",
-    "main.js": "/static/js/main.e92cc63e.js",
+    "main.css": "/static/css/main.430ee438.css",
+    "main.js": "/static/js/main.e044b064.js",
     "static/media/move2.mp4": "/static/media/move2.85280ccf32c4e31016ca.mp4",
     "static/media/move1.mp4": "/static/media/move1.723d02bc370cc167c518.mp4",
     "static/media/trunksafe2.jpg": "/static/media/trunksafe2.979607cfd6e53aabca84.jpg",
@@ -27,11 +27,11 @@
     "static/media/howThree.svg": "/static/media/howThree.97c5e829039cd2a1a37c1486c0ddc43c.svg",
     "static/media/howOne.svg": "/static/media/howOne.3c17a22ef614198101415b692842564d.svg",
     "index.html": "/index.html",
-    "main.f4434476.css.map": "/static/css/main.f4434476.css.map",
-    "main.e92cc63e.js.map": "/static/js/main.e92cc63e.js.map"
+    "main.430ee438.css.map": "/static/css/main.430ee438.css.map",
+    "main.e044b064.js.map": "/static/js/main.e044b064.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4434476.css",
-    "static/js/main.e92cc63e.js"
+    "static/css/main.430ee438.css",
+    "static/js/main.e044b064.js"
   ]
 }
