@@ -9,6 +9,7 @@ import { LightPhonePhoneButton } from '../../styledComponents';
 import Ferrari from '../../assets/pics/cars7.jpg';
 import Windows from '../../assets/pics/windows.jpg';
 import Guy from '../../assets/pics/guys4.jpg';
+import Footer from '../footer/footer';
 
 const About = () => {
   return (
@@ -702,6 +703,7 @@ const About = () => {
           </Button>
         </Box>
       </Box>
+      <Footer />
     </div>
   );
 };

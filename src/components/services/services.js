@@ -17,6 +17,7 @@ import { ReactComponent as HowOne } from '../../assets/howOne.svg';
 import { ReactComponent as HowTwo } from '../../assets/howTwo.svg';
 import { ReactComponent as HowThree } from '../../assets/howThree.svg';
 import { ReactComponent as HowFour } from '../../assets/howFour.svg';
+import Footer from '../footer/footer';
 
 const Services = () => {
   const contactOptions = [
@@ -734,6 +735,7 @@ const Services = () => {
           </Button>
         </Box>
       </Box>
+      <Footer />
     </div>
   );
 };

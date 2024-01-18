@@ -4,6 +4,7 @@ import Menu from '../menu/menu.js';
 import ContactForm from './contactForm.js';
 import ContactCarLeft from '../../assets/pics/cars3.jpg';
 import ContactCarRight from '../../assets/pics/guy3.jpg';
+import Footer from '../footer/footer.js';
 
 const Contact = () => {
   return (
@@ -110,6 +111,7 @@ const Contact = () => {
           />
         </Box>
       </Box>
+      <Footer />
     </>
   );
 };
