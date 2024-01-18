@@ -32,6 +32,7 @@ const Footer = () => {
         gap: { xs: '3em', sm: '2em', amd: '2em', lg: '0px' },
         backgroundColor: 'black',
         flexWrap: 'wrap',
+        marginTop: '50px',
       }}
     >
       <Box
@@ -143,7 +144,7 @@ const Footer = () => {
         <Box
           sx={{
             height: { xs: '100px', sm: '70px', md: '120px' },
-            width: { xs: '100px', sm: '100px', md: '150px' },
+            width: { xs: '150px', sm: '150px', md: '150px' },
 
             background: `url(${Windows})`,
             backgroundRepeat: 'no-repeat',
