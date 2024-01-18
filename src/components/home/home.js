@@ -56,7 +56,7 @@ const Home = () => {
             sm: '80vh',
             xs: '80vh',
           },
-          marginBottom: '-25px',
+
           backgroundColor: 'white',
         }}
       >
@@ -136,13 +136,7 @@ const Home = () => {
             sm: '25px',
             xs: '25px',
           },
-          marginTop: {
-            xl: '0px',
-            lg: '0px',
-            md: '0px',
-            sm: '50px',
-            xs: '0px',
-          },
+
           paddingBottom: {
             xl: '20px',
             lg: '20px',

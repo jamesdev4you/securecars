@@ -23,3 +23,16 @@ code {
   src: local('Lemon'),
     url(./fonts/LemonMilkRegular-X3XE2.otf) format('opentype');
 }
+.footerimage {
+  margin: 0px 50px auto auto;
+}
+
+.menuimage {
+  margin: 10px 10px 10px 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .footerimage {
+    margin: auto;
+  }
+}

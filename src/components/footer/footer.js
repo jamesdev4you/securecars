@@ -4,6 +4,7 @@ import Typography from '@mui/material/Typography';
 import { NavLink } from 'react-router-dom';
 import ListItem from '@mui/material/ListItem';
 import Windows from '../../assets/pics/logo.jpg';
+import '../../index.css';
 
 const navItems = [
   { text: 'Home', href: '/' },
@@ -138,19 +139,19 @@ const Footer = () => {
           </ListItem>
         ))}
       </Box>
+      <NavLink to='/home' className='footerimage'>
+        <Box
+          sx={{
+            height: { xs: '100px', sm: '70px', md: '120px' },
+            width: { xs: '100px', sm: '100px', md: '150px' },
 
-      <Box
-        sx={{
-          height: { xs: '100px', sm: '70px', md: '120px' },
-          width: { xs: '100px', sm: '100px', md: '150px' },
-          margin: { xs: 'auto', sm: '0px 50px auto auto' },
-
-          background: `url(${Windows})`,
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      />
+            background: `url(${Windows})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        />
+      </NavLink>
     </Box>
   );
 };
