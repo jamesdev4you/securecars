@@ -2,7 +2,6 @@ import React from 'react';
 import Menu from '../menu/menu';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import safe from '../../assets/pics/trunksafe2.jpg';
 import SvgIcon from '@mui/material/SvgIcon';
 import Button from '@mui/material/Button';
 import Ferrari from '../../assets/pics/cars6.jpg';

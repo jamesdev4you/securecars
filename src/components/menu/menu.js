@@ -36,7 +36,9 @@ export default function NavBar(props) {
       onClick={handleDrawerToggle}
       sx={{ textAlign: 'center', backgroundColor: 'black' }}
     >
+      <NavLink to='/home' className='footerimage'>
       <img src={Logo} alt='yooo' style={{ height: '130px', width: '150px' }} />
+      </NavLink>
       <Divider sx={{ backgroundColor: 'white' }} />
       <List sx={{ backgroundColor: 'black' }}>
         {navItems.map((item) => (
@@ -81,6 +83,7 @@ export default function NavBar(props) {
           >
             <MenuIcon sx={{ color: 'white' }} />
           </IconButton>
+          <NavLink to='/home' className='menuimage'>
           <Box
             alt='yooo'
             sx={{
@@ -114,6 +117,7 @@ export default function NavBar(props) {
               backgroundPosition: 'center',
             }}
           />
+          </NavLink>
 
           <Box
             sx={{
